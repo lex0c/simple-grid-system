@@ -11,8 +11,8 @@
 }
 
 /* GRID HELPERS */
-.border { border: 1px solid #666; }
-.padding { padding: 0px 15px; }
+.grid-border { border: 1px solid #666; }
+.grid-padding { padding: 0px 15px; }
 
 /* GRID SYSTEM */
 .container {
