@@ -1,3 +1,4 @@
+/* GRID RESET */
 * {
   margin: 0;
   padding: 0;
@@ -9,6 +10,11 @@
           box-sizing: border-box;
 }
 
+/* GRID HELPERS */
+.border { border: 1px solid #666; }
+.padding { padding: 0px 15px; }
+
+/* GRID SYSTEM */
 .container {
   width: 99%;
   margin: 0px auto;
