@@ -224,3 +224,51 @@
 .column-offset-1 {
   margin-left: 8.33333333%;
 }
+@media (max-width: 768px) {
+  .column-12, .column-push-12, .column-pull-12, .column-offset-12,
+  .column-11, .column-push-11, .column-pull-11, .column-offset-11,
+  .column-10, .column-push-10, .column-pull-10, .column-offset-10,
+  .column-9, .column-push-9, .column-pull-9, .column-offset-9,
+  .column-8, .column-push-8, .column-pull-8, .column-offset-8,
+  .column-7, .column-push-7, .column-pull-7, .column-offset-7,
+  .column-6, .column-push-6, .column-pull-6, .column-offset-6,
+  .column-5, .column-push-5, .column-pull-5, .column-offset-5,
+  .column-4, .column-push-4, .column-pull-4, .column-offset-4,
+  .column-3, .column-push-3, .column-pull-3, .column-offset-3,
+  .column-2, .column-push-2, .column-pull-2, .column-offset-2,
+  .column-1, .column-push-1, .column-pull-1, .column-offset-1 {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  .column-12, .column-push-12, .column-pull-12, .column-offset-12,
+  .column-11, .column-push-11, .column-pull-11, .column-offset-11,
+  .column-10, .column-push-10, .column-pull-10, .column-offset-10,
+  .column-9, .column-push-9, .column-pull-9, .column-offset-9,
+  .column-8, .column-push-8, .column-pull-8, .column-offset-8,
+  .column-7, .column-push-7, .column-pull-7, .column-offset-7,
+  .column-6, .column-push-6, .column-pull-6, .column-offset-6,
+  .column-5, .column-push-5, .column-pull-5, .column-offset-5,
+  .column-4, .column-push-4, .column-pull-4, .column-offset-4,
+  .column-3, .column-push-3, .column-pull-3, .column-offset-3,
+  .column-2, .column-push-2, .column-pull-2, .column-offset-2,
+  .column-1, .column-push-1, .column-pull-1, .column-offset-1 {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .column-12, .column-push-12, .column-pull-12, .column-offset-12,
+  .column-11, .column-push-11, .column-pull-11, .column-offset-11,
+  .column-10, .column-push-10, .column-pull-10, .column-offset-10,
+  .column-9, .column-push-9, .column-pull-9, .column-offset-9,
+  .column-8, .column-push-8, .column-pull-8, .column-offset-8,
+  .column-7, .column-push-7, .column-pull-7, .column-offset-7,
+  .column-6, .column-push-6, .column-pull-6, .column-offset-6,
+  .column-5, .column-push-5, .column-pull-5, .column-offset-5,
+  .column-4, .column-push-4, .column-pull-4, .column-offset-4,
+  .column-3, .column-push-3, .column-pull-3, .column-offset-3,
+  .column-2, .column-push-2, .column-pull-2, .column-offset-2,
+  .column-1, .column-push-1, .column-pull-1, .column-offset-1 {
+    width: 100%;
+  }
+}
