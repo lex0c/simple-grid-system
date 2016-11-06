@@ -1,9 +1,8 @@
-/* GRID RESET */
+/* Basic grid reset */
 body {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
-
 div,
 main,
 aside,
@@ -20,16 +19,11 @@ footer {
           box-sizing: border-box;
 }
 
-/* GRID HELPERS */
-.grid-border { border: 1px solid #666; }
-/* HELPER PADDINGS */
-.grid-padding-lr { padding: 0px 15px; } /* lr: LEFT and RIGHT */
-.grid-padding-tb { padding: 15px 0px; } /* tb: TOP and BOTTON */
-
-/* GRID SYSTEM */
+/* Grid System */
 .container {
   width: 99%;
-  margin: 0px auto;
+  padding: 5px 0;
+  margin: 0 auto;
 }
 @media (min-width: 768px) {
   .container {
@@ -48,11 +42,12 @@ footer {
 }
 .container-full {
   width: 100%;
-  margin: 0px auto;
+  padding: 5px 0;
+  margin: 0 auto;
 }
 
 .line {
-  margin: 0px auto;
+  margin: 0 auto;
 }
 .line:before, 
 .line:after {
@@ -65,10 +60,12 @@ footer {
 
 .column-list {
   position: relative;
+  padding: 3px;
   float: none;
 }
 .column-small {
   position: relative;
+  padding: 3px;
   float: none;
 }
 @media (min-width: 768px) {
@@ -78,6 +75,7 @@ footer {
 }
 .column-medium {
   position: relative;
+  padding: 3px;
   float: none;
 }
 @media (min-width: 992px) {
@@ -87,6 +85,7 @@ footer {
 }
 .column-large {
   position: relative;
+  padding: 3px;
   float: none;
 }
 @media (min-width: 1200px) {
