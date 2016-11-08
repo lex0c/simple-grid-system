@@ -22,32 +22,36 @@ footer {
 /* Grid System */
 .container {
   width: 99%;
-  padding: 5px 0;
   margin: 0 auto;
 }
 @media (min-width: 768px) {
   .container {
-    width: 90%;
+    width: 97%;
   }
 }
 @media (min-width: 992px) {
   .container {
-    width: 85%;
+    width: 95%;
   }
 }
 @media (min-width: 1200px) {
   .container {
-    width: 80%;
+    width: 85%;
   }
 }
 .container-full {
   width: 100%;
-  padding: 5px 0;
   margin: 0 auto;
 }
-
+.container-space {
+  padding: 3px;
+  margin: 15px auto;
+}
 .line {
   margin: 0 auto;
+}
+.line-space {
+  padding: 5px 3px;
 }
 .line:before, 
 .line:after {
@@ -60,12 +64,10 @@ footer {
 
 .column-list {
   position: relative;
-  padding: 3px;
   float: none;
 }
 .column-small {
   position: relative;
-  padding: 3px;
   float: none;
 }
 @media (min-width: 768px) {
@@ -75,7 +77,6 @@ footer {
 }
 .column-medium {
   position: relative;
-  padding: 3px;
   float: none;
 }
 @media (min-width: 992px) {
@@ -85,13 +86,15 @@ footer {
 }
 .column-large {
   position: relative;
-  padding: 3px;
   float: none;
 }
 @media (min-width: 1200px) {
   .column-large {
     float: left;
   }
+}
+.column-space {
+  padding: 3px;
 }
 .column-12 {
   width: 100%;
